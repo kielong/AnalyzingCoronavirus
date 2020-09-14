@@ -1,0 +1,11 @@
+--train
+--data=coronavirus-headlines/corona.multilang100.jsonl.gz
+--data_format=headlines
+--model=bert
+--dropout=0.2
+--optimizer=adam
+--learning_rate=1e-3
+--gradient_clipping
+--batch_size=4
+--input_length=64
+--batch_size=4

@@ -1,0 +1,15 @@
+--train
+--gradient_clipping
+--samples=10000000
+--log_dir_base=log_caps
+--optimizer=adam
+--data=coronavirus-headlines/coronavirus-headlines-train.jsonl.gz
+--data_format=headlines
+--sample_strategy=uniform_line
+--model=gru
+--resnet
+--learning_rate=1e-3
+--batch_size=128
+--hidden_layer_size=512
+--num_layers=8
+--dropout=0.2
